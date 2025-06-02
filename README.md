@@ -16,10 +16,10 @@ Workers 地址就是 CDN 加速域名。
 
 刚才添加的 Worker 设置 >> 域和路由 >> 添加 >> 路由
 
-* 区域：选择一个给路由使用的域名，如 `example.com`
+* 区域：选择一个路由使用的域名，如 `example.com`
 * 路由：如果要通过 `proxy.example.com` 访问，则填写 `proxy.example.com/*`，末尾必须有 **/***
 
-路由添加好之后，对 `example.com` 添加 DNS 记录，有三种方法，选择一种：
+路由添加好之后，在 Cloudflare 对 `example.com` 添加 DNS 记录。有三种方法，选择一种：
 
 1. 类型选择`CNAME`，名称正常写（和添加的路由对应，如 `proxy`），
 
