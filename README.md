@@ -19,6 +19,9 @@ const B2_ENDPOINT = "https://s3.us-west-004.backblazeb2.com";
 默认禁止 Workers 自带地址访问。
 在 `ALLOWED_REFERERS` 中填入你允许的 Referer 来源地址。
 
+---
+
+说明：
 
 `ALLOWED_DOMAINS` 里的地址就是 CDN 加速域名，也就是访问用的地址。
 如：`b2-proxy.user.workers.dev`、`proxy.example.com`。
@@ -58,7 +61,7 @@ const B2_ENDPOINT = "https://s3.us-west-004.backblazeb2.com";
 
 - 其余按官方文档正常配置
   
-## 参考
+## References
 
 - https://docs.cloudreve.org/zh/usage/storage/b2#reverse-proxy
 - https://docsv3.cloudreve.org/use/policy/s3#backblaze-b2
